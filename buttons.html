@@ -7,9 +7,20 @@
 </head>
 <body>
     
-<a href="page2.html" target="_blank">
-    <button style="font-size: 25px; background-color: aqua; color:black; border-radius: 25px;">Click me</button>
-</a>
+<!-- <a href="page2.html" target="_blank"> -->
+    
+    
+    <button onclick="doSomething()" style="font-size: 25px; background-color: aqua; color:black; border-radius: 25px;">Click me</button>
+
+    <p id = "greeting"> Sample Text</p>
+
+    <script>
+        function doSomething(){
+            document.getElementById("greeting").innerHTML = "GoodBye"
+
+        }
+    </script>
+<!-- </a> -->
 
 </body>
 </html>
